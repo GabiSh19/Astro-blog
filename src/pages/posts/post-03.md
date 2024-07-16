@@ -5,6 +5,7 @@ description: Learn how to use React Hooks to manage state and lifecycle in funct
 author: Alice Johnson
 image: '/assets/images/post-03.png'
 tags: [React, JavaScript, Web Development]
+layout: ../../layouts/BlogLayout.astro
 ---
 
 # Comprendiendo los Hooks de React

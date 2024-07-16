@@ -5,6 +5,7 @@ description: En este tutorial, construiremos una API RESTful utilizando Node.js 
 author: Bob Williams
 image: '/assets/images/post-04.png'
 tags: [Node.js, Express, API, Backend]
+layout: ../../layouts/BlogLayout.astro
 ---
 
 # Construyendo una API REST con Node.js

@@ -8,7 +8,7 @@ export class Formatter {
             year: 'numeric',
             month: 'long',
             day: '2-digit'
-        }).format(date); 
+        }).format( date ); 
     }
 
 }

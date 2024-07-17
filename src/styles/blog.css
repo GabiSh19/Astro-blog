@@ -11,7 +11,7 @@ html {
   }
   
   h2 {
-    @apply text-2xl text-blue-500 my-5;
+    @apply text-2xl text-blue-300 my-5;
   }
   
   h3 {

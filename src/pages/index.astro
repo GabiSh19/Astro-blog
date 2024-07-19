@@ -13,9 +13,10 @@ const post = await Astro.glob('./posts/*.{md,mdx}');
             <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">{siteConfig.title}</h1>
     
             <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
-                
+                <h1>Antes de los posts</h1>
                 {post.map ((post) => <BlogPost {...post} />)}
-
+                <h1>Después de los posts</h1>
+                
             </div>
         </div>
     </section>

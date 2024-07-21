@@ -11,7 +11,7 @@ html {
   }
   
   h2 {
-    @apply text-2xl text-blue-300 my-5;
+    @apply text-2xl text-blue-400 my-5;
   }
   
   h3 {
@@ -23,5 +23,5 @@ html {
   }
   
   a {
-    @apply text-blue-400 hover:underline;
+    @apply text-blue-300 hover:underline;
   }

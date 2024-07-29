@@ -4,8 +4,9 @@ import MainLayout from '../layouts/MainLayout.astro';
 import { siteConfig } from '../config/site-config';
 import { getCollection } from 'astro:content';
 const post = await Astro.glob('./posts/*.{md,mdx}');
-const blogPosts = await getCollection('blog');
 
+const blogPosts = await getCollection('blog');
+blogPosts[0]
 
 ---
 <MainLayout title='Astro-Blog'>
